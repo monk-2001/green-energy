@@ -1,0 +1,162 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: auto;
+    max-width: 60rem;
+    background-image: url(../images/bg.jpg);
+    color: #003875;
+}
+
+html{
+	line-height: 1.5rem;
+}
+
+.masthead{
+    font-size: 1.2rem;
+    margin-left: 3%;
+	width: 94%;
+	text-align:left;
+	background-image: url(../images/bg2.jpg);
+    height: 80px;
+    display: block;
+    margin-bottom: 0;
+}
+
+h1{
+    font-size: 2rem;
+	font-family: 'Lora', serif;
+    text-align: center; 
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+h2{
+	font-size: 2rem;
+	font-family: 'Lora', serif;
+}
+
+
+p,a,li,button{
+	font-size: 1rem;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+a:link{
+	color: gray;
+    text-decoration: none;}
+
+a:hover{ 
+    color: gray;
+}
+
+a:active{ 
+    color: red;
+}
+
+ul{
+    text-align: left;
+}
+
+li{
+	text-align: center;
+	list-style: none;
+	display:inline-block;
+	margin-right: 2%;
+    text-decoration: none;	
+    border-style: solid;
+    padding:5px 10px;
+    width: 100px;
+}
+
+.container{
+	display: block;
+}
+
+button{
+	background-color: #77caea;
+	border:none;
+	padding:15px 32px;
+    display:inline-block;
+    margin: 10px 5px 10px 30px;    
+}
+
+#active{
+	background-color: #013974;
+	color: white;
+}
+
+footer{
+    margin-top: 100px;
+    width: 100%;
+}
+
+img{
+    margin-left: 2%;
+}
+
+main img{
+    width: 25%;
+	float: left;
+    margin-left: 0;
+    margin-right: 5%;
+    height: auto;
+    display: inline;
+}
+
+p{
+    display: inline;
+}
+
+@media screen and (max-device-width:600px) {
+    body{
+        max-width: 30rem;
+    }
+    
+   a,li,button {
+        font-size: 0.75rem; 
+    }
+    
+    p{
+        font-size: 10px; 
+    }
+    
+    button{
+        padding:5px 10px;
+        margin: 10px 5px 10px 30px;    
+    }
+    
+    h1{
+	    font-size: 1rem;
+    }
+    
+    h2{
+        font-size: 0.75rem;
+    }
+    
+    .masthead{
+        height: 50px;
+        padding-left: 2%;   
+    }
+    
+    ul{
+        text-align: left;
+        width:150px;    
+    }
+    
+    nav li{
+        text-align: left;
+        display: block;}
+    
+    main img{width: 100%;
+    	float: none;
+        height: auto;
+    }
+    
+    footer{
+        margin-top:30px;     
+    }
+}
